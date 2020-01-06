@@ -1,0 +1,19 @@
+{
+    "name": "joe/crd",
+    "description": "joe's composer-repository-demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joe",
+            "email": "594627280@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Joe\\Crd\\": "src/"
+        }
+    },
+    "require": {}
+}
